@@ -32,7 +32,7 @@ function getCookie(cname) {
 function checkCookie() {
   let user = getCookie("name");
   if (user != "") {
-    alert("Welcome back," + user +"!");
+    alert("Welcome back, " + user +"!");
   } else {
     user = prompt("What is your name? (Refresh after entering)", "");
     if (user != "" && user != null) {
